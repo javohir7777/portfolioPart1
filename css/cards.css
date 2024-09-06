@@ -1,0 +1,135 @@
+.cards {
+  background-color: var(--bg-dark);
+  padding: 75px 0 87px;
+}
+.card-text__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 64px;
+}
+.card-text__fire {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 12.39px;
+}
+.card-fire__h4 {
+  text-transform: uppercase;
+  font-family: Orbitron;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: var(--bg-blue);
+}
+.card-text__h1 {
+  font-family: Orbitron;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 74px;
+  text-align: left;
+  color: var(--bg-white);
+}
+.card-btn__btn {
+  padding: 21px 34px;
+  background-color: var(--bg-blue);
+  font-family: Orbitron;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: var(--bg-white);
+}
+/* Cards */
+.cards-row {
+  display: flex;
+  gap: 24px;
+}
+
+.card-big__body {
+  padding-bottom: 54px;
+}
+.card--body__img {
+  width: 100%;
+}
+.card--footer__h6 {
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: var(--bg-blue);
+  padding-bottom: 28px;
+}
+.card--footer__p {
+  text-transform: capitalize;
+  font-family: Orbitron;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: left;
+  color: var(--bg-white);
+}
+.cards-small {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 40px;
+}
+.card-small__body {
+  padding-bottom: 30px;
+}
+.card--Smbody__img {
+  width: 100%;
+}
+.card--Smfooter__h6 {
+  font-family: Orbitron;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: var(--bg-blue);
+  padding-bottom: 20px;
+}
+.card--Smfooter__p {
+  text-transform: capitalize;
+  font-family: Orbitron;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  color: var(--bg-white);
+}
+
+@media (max-width: 992px) {
+  .cards-row {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .card-text__btn {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .card-text__h1 {
+    text-align: center;
+  }
+}
+@media (max-width: 505px) {
+  .cards-small {
+    grid-template-columns: 1fr;
+  }
+  .card--footer__h6 {
+    text-align: center;
+  }
+  .card--footer__p {
+    text-align: center;
+  }
+  .card--Smfooter__h6 {
+    text-align: center;
+  }
+  .card--Smfooter__p {
+    text-align: center;
+  }
+}
