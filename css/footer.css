@@ -55,6 +55,15 @@ footer {
   color: var(--bg-white);
   border: none;
 }
+.dark .footer-h1 {
+  color: var(--bg-blue);
+}
+.dark .footer-p {
+  color: var(--bg-grey);
+}
+.dark .footer-input__2 {
+  background-color: var(--bg-black);
+}
 
 @media (max-width: 1300px) {
   footer {

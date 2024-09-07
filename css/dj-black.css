@@ -5,7 +5,7 @@
 .dj-flex {
   display: flex;
   align-items: center;
-  gap: 35.33px;
+  gap: 7.33px;
 }
 .dj-text__fire {
   display: flex;
@@ -65,6 +65,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.dark .dj-black {
+  background-color: var(--bg-black);
+}
+.dark .dj-text__h4 {
+  color: var(--bg-yellow);
+}
+.dark .dj-text__h1 {
+  color: var(--texts-grey);
+}
+.dark .dj-text__p {
+  color: var(--bg-white);
+}
+.dark .dj-text__a {
+  color: var(--bg-yellow);
 }
 
 @media (max-width: 1400px) {

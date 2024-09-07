@@ -75,6 +75,20 @@
   text-align: left;
   color: var(--texts-grey);
 }
+
+.dark .stop-fire__h4 {
+  color: var(--bg-yellow);
+}
+.dark .stop-h1 {
+  color: var(--bg-dark);
+}
+.dark .stop-p {
+  color: var(--bg-white);
+}
+.dark .stop-card {
+  background-color: var(--bg-blackOpacity);
+}
+
 @media (max-width: 992px) {
   .stop {
     height: 100%;

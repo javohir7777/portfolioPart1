@@ -78,6 +78,10 @@ nav {
   width: 48px;
 }
 
+.nav-moon__img {
+  width: 48px;
+}
+
 .dark header {
   background-image: linear-gradient(
     to right,

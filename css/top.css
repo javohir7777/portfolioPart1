@@ -18,7 +18,9 @@ body {
   --text-grey: rgba(85, 85, 85, 1);
   --texts-grey: rgba(223, 223, 223, 0.8);
   --bg-card: rgba(255, 255, 255, 0.15);
+  --bg-blackOpacity: rgba(20, 24, 32, 0.5);
 }
+
 /* :root .dark {
   --bg-blue: rgba(20, 24, 32, 1);
   --bg-black: rgba(87, 184, 255, 1);

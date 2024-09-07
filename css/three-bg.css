@@ -30,6 +30,14 @@
   text-align: center;
   color: var(--bg-white);
 }
+
+.dark .three-bg__black {
+  background-color: var(--bg-dark);
+}
+.dark .three-bg__texts-h1 {
+  color: var(--bg-yellow);
+}
+
 @media (max-width: 1100px) {
   .three-mb__texts3 {
     display: none;

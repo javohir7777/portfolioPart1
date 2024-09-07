@@ -100,6 +100,30 @@
   text-align: left;
   color: var(--bg-white);
 }
+.dark .cards {
+  background-color: var(--bg-black);
+}
+.dark .card-fire__h4 {
+  color: var(--bg-yellow);
+}
+.dark .card-text__h1 {
+  color: var(--texts-grey);
+}
+.dark .card-btn__btn {
+  color: var(--bg-yellow);
+}
+.dark .card--footer__h6 {
+  color: var(--bg-yellow);
+}
+.dark .card--footer__p {
+  color: var(--bg-grey);
+}
+.dark .card--Smfooter__h6 {
+  color: var(--bg-yellow);
+}
+.dark .card--Smfooter__p {
+  color: var(--bg-grey);
+}
 
 @media (max-width: 992px) {
   .cards-row {
