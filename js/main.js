@@ -10,13 +10,21 @@ setTimeout(() => {
 // dark-mode
 let modeBtn = document.getElementById("mode-btn");
 
+if (localStorage.getItem("dark-mode") === "enabled") {
+  document.body.classList.add("dark");
+  modeBtn.firstElementChild.src = "./images/header/sun.svg";
+}
+
 modeBtn.addEventListener("click", function () {
-  if (document.body.className != "dark") {
-    this.firstElementChild.src = "./images/header/sun.svg";
-  } else {
-    this.firstElementChild.src = "./images/header/moon.svg";
-  }
   document.body.classList.toggle("dark");
+
+  const isDarkMode = document.body.classList.contains("dark");
+
+  localStorage.setItem("dark-mode", isDarkMode ? "enabled" : "disabled");
+
+  (this.firstChild.src = isDarkMode)
+    ? "./images/header/sun.svg"
+    : "./images/header/moon.svg";
 });
 
 // toggle
